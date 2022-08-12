@@ -1,0 +1,38 @@
+html,
+    body {
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    * {
+        font-family: sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    header {
+        background-size: cover;
+    }
+
+    .hidden-spacer {
+        height: 56px
+    }
+
+    img {
+        height: auto;
+        width: auto;
+    }
+
+    .slide {
+        height: 655px;
+        width: auto;
+        background-color: rgb(248, 165, 41);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
