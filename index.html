@@ -5,60 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KeepNotes</title>
+    <title>MyNotes</title>
+    <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
-<style>
-    html,
-    body {
-        padding: 0px;
-        margin: 0px;
-        overflow-x: hidden;
-        height: 100%;
-    }
-
-    * {
-        font-family: sans-serif;
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-    header {
-        background-size: cover;
-    }
-
-    /* .bg-warning {
-        height: 100%;
-    } */
-
-    .hidden-spacer {
-        height: 56px
-    }
-
-    img {
-        height: auto;
-        width: auto;
-    }
-
-    .slide {
-        height: 655px;
-        width: auto;
-        background-color: rgb(248, 165, 41);
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
 
 <body>
 
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand ml-4 mr-4" href="#">KeepNotes</a>
+            <a class="navbar-brand ml-4 mr-4" href="#">MyNotes</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -79,7 +36,7 @@
 
     <div class="container-fluid bg-warning">
         <br>
-        <h1>Welcome to KeepNotes</h1>
+        <h1>Welcome to MyNotes</h1>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">New Note</h5>
@@ -90,9 +47,9 @@
             </div>
         </div>
         <br>
-        <h1>Notes</h1>
+        <h1>My Notes</h1>
         <hr><br>
-        <div id="notes" class="row container-fluid justify-content-between"></div>
+        <div id="notes" class="row container-fluid justify-content-around"></div>
         <br><br><br><br><br>
     </div>
 
